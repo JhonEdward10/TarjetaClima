@@ -1,0 +1,62 @@
+*{
+  text-align: center;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('./img/imagenNoche.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.App{
+  color: black;
+  min-height: 100vh;
+  font-size: 120%;
+  font-weight: 700;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  padding: 10px 1px;
+}
+
+.Card{
+  max-width: 600px;
+  background: hsla(0,0%,100%,.7);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+}
+
+.change-unit{
+  border: 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.icon{
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+}
